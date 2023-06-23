@@ -69,7 +69,7 @@ namespace SLCASJDEORDERS_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
-			var order = OrderFactory.CreateOrder("Frietjes met kaasballetjes");
+			var order = OrderFactory.CreateOrder("Thanks for an excellent collaboration Frietjes met kaasballetjes");
 			order.Dispatch("Justien Decuypere");
 		}
 	}
